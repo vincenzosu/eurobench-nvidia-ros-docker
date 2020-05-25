@@ -14,8 +14,5 @@ look at the commented out lines at the end of file.
 [here](https://github.com/NVIDIA/nvidia-docker).
 3. After cloning this repo, run
 `sudo ./build_the_docker.sh` to build it and
-4. 
-```
-sudo ./run_the_docker.sh
-```
+4. ``` sudo ./run_the_docker.sh```
 to start the container
