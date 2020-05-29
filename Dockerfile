@@ -189,7 +189,9 @@ RUN sudo apt install -y ros-kinetic-realtime-tools  \
 	ros-kinetic-four-wheel-steering-msgs \
 	ros-kinetic-moveit-ros-planning-interface \
 	ros-kinetic-humanoid-nav-msgs \
-	ros-kinetic-urdf-geometry-parser
+	ros-kinetic-urdf-geometry-parser \
+	python3-pandas 
+RUN pip install PyYAML==5.1 
 
 #RUN echo "$(pwd)"
 
