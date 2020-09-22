@@ -35,6 +35,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
         python \
         libxext-dev \
         libx11-dev \
+	python3-pip \
+	python-pip \
         x11proto-gl-dev && \
     rm -rf /var/lib/apt/lists/*
 
