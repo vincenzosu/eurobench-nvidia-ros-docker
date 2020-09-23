@@ -17,6 +17,7 @@ baseline.
  ```curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.list | sudo tee /etc/apt/sources.list.d/nvidia-docker.list``` 
  
  ```apt update```
+ 
  ```apt install nvidia-docker2```
 
 more information [here](https://github.com/NVIDIA/nvidia-docker).
