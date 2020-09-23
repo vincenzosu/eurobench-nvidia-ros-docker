@@ -25,4 +25,4 @@ baseline.
 3. After cloning this repo, run
 ```sudo ./build_the_docker.sh```  to build it and
 
-4. ``` sudo ./run_the_docker.sh``` to start the container```
+4. ``` sudo ./run_the_docker.sh``` to start the container
