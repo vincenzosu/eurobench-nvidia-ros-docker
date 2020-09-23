@@ -16,10 +16,9 @@ look at the commented out lines at the end of file.
 
  ```curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey | sudo apt-key add -```
  
- ```curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.list | sudo tee /etc/apt/sources.list.d/nvidia-docker.list
-more information```
+ ```curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.list | sudo tee /etc/apt/sources.list.d/nvidia-docker.list``` 
 
-[here](https://github.com/NVIDIA/nvidia-docker).
+more information [here](https://github.com/NVIDIA/nvidia-docker).
 
 3. After cloning this repo, ```run
 `sudo ./build_the_docker.sh```` to ```build it and
