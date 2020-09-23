@@ -5,8 +5,6 @@ ros-kinetic-nvidia-docker' [here](https://github.com/craymichael/ros-kinetic-nvi
 [phromo](https://github.com/phromo/ros-indigo-desktop-full-nvidia) for the
 baseline. 
 
-To extend the Dockerfile (e.g. to add more ROS packages or users), take a
-look at the commented out lines at the end of file.
 
 # Installation
 1. Install docker
