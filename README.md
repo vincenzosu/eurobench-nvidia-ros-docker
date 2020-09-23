@@ -17,6 +17,9 @@ look at the commented out lines at the end of file.
  ```curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey | sudo apt-key add -```
  
  ```curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.list | sudo tee /etc/apt/sources.list.d/nvidia-docker.list``` 
+ 
+ ```apt update```
+ ```apt install nvidia-docker2```
 
 more information [here](https://github.com/NVIDIA/nvidia-docker).
 
