@@ -193,7 +193,8 @@ RUN sudo apt install -y ros-kinetic-realtime-tools  \
 	ros-kinetic-humanoid-nav-msgs \
 	ros-kinetic-urdf-geometry-parser \
 	python3-pandas \
-	python-pandas 
+	python-pandas \
+	python-tk
 RUN pip install PyYAML==5.1 
 
 #RUN echo "$(pwd)"
