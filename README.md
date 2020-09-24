@@ -7,7 +7,9 @@ baseline.
 
 
 # Installation
-1. Install docker
+1. Install docker:
+      [here the guide](https://docs.docker.com/engine/install/ubuntu/)
+      
 2. Install nvidia-docker:
 
       ```distribution=$(. /etc/os-release;echo $ID$VERSION_ID)```
