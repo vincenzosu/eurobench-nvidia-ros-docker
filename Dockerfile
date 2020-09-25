@@ -197,6 +197,7 @@ RUN sudo apt install -y ros-kinetic-realtime-tools  \
 	python-pandas \
 	python-tk
 RUN pip install PyYAML==5.1 
+WORKDIR /home/roseurobench/reemc_public_ws/
 
 #RUN echo "$(pwd)"
 
@@ -206,5 +207,8 @@ NB: the run script takes on input the id of this container tht you can find \
 at end of this procedure \n\n \033[0m "
 
 SHELL ["/bin/bash", "-c", "source ../devel/setup.bash"]
+
 #SHELL [ "/bin/bash", "-c", "catkin build -DCATKIN_ENABLE_TESTING=0"]
+
+
 
