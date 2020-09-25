@@ -182,9 +182,9 @@ RUN git clone https://github.com/madrob-beast/beast_msgs.git
 RUN git clone https://github.com/madrob-beast/beast_srvs.git
 #RUN rosdep install --from-paths ./src --ignore-src
 
-# ================== madrob-reemc brdge (TODO ADD when repo will be public)
-#RUN git clone https://github.com/vincenzosu/eurobench_state_collector
-#RUN git clone https://github.com/vincenzosu/eurobench_reemc_door
+# ================== madrob-reemc brdge 
+RUN git clone https://github.com/vincenzosu/eurobench_state_collector
+RUN git clone https://github.com/vincenzosu/eurobench_reemc_door
 
 # other ros dependecies
 RUN sudo apt install -y ros-kinetic-realtime-tools  \ 
