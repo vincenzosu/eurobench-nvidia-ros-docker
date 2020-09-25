@@ -4,6 +4,7 @@ ros-kinetic-nvidia-docker' [here](https://github.com/craymichael/ros-kinetic-nvi
 
 # Requirements
 - Ubuntu 16.04/18.04/20.04
+- An NVIDIA Gpu and NVIDIA drivers (XOrg not supported)
 
 
 # Installation and Setup
