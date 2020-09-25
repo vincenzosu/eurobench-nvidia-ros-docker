@@ -6,7 +6,7 @@ ros-kinetic-nvidia-docker' [here](https://github.com/craymichael/ros-kinetic-nvi
 - Ubuntu 16.04/18.04/20.04
 
 
-# Installation
+# Installation and Setup
 1. Install docker:
       [here the guide](https://docs.docker.com/engine/install/ubuntu/)
       
