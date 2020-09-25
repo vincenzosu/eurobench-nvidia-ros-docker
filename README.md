@@ -32,9 +32,13 @@ ros-kinetic-nvidia-docker' [here](https://github.com/craymichael/ros-kinetic-nvi
 
 # Execution
 Inside the container, to finish the setup and executing the node:
+
       ```source /opt/ros/kinetic/setup.bash```
+      
       ```catkin build -DCATKIN_ENABLE_TESTING=0```
+      
       ```source devel/setup.bash```
+      
       ```QT_X11_NO_MITSHM=1 rosrun eurobench_state_collector eurobench_state_collector_node.py```
 
 
