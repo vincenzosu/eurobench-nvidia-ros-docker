@@ -28,4 +28,13 @@ ros-kinetic-nvidia-docker' [here](https://github.com/craymichael/ros-kinetic-nvi
 3. After cloning this repo, run
 ```sudo ./build_the_docker.sh```  to build it and
 
-4. ``` sudo ./run_the_docker.sh``` to start the container
+4. ``` sudo ./run_the_docker.sh <dockerImageID>``` to start the container
+
+# Execution
+Inside the container, to finish the setup and executing the node:
+      ```source /opt/ros/kinetic/setup.bash```
+      ```catkin build -DCATKIN_ENABLE_TESTING=0```
+      ```source devel/setup.bash```
+      ```QT_X11_NO_MITSHM=1 rosrun eurobench_state_collector eurobench_state_collector_node.py```
+
+
