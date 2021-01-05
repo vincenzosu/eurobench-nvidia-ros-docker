@@ -168,7 +168,7 @@ RUN echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
 #RUN /bin/bash -c "source ~/.bashrc"
 
 # ================== sapienza  Open the door
-RUN git clone https://github.com/JoseJaramillo/reemc_door
+# RUN git clone https://github.com/JoseJaramillo/reemc_door
 
 # ================== madrob performance indicator
 RUN git clone https://github.com/madrob-beast/madrob_beast_pi.git
